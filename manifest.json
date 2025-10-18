@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "DAP",
+  "version": "1.0.1",
+  "description": "Convierte precios de USD a ARS y muestra ofertas.",
+
+  "permissions": [
+    "storage",  
+    "alarms" 
+  ],
+
+  "host_permissions": [
+    "https://dolarapi.com/*",
+    "https://api.cheapshark.com/*" 
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "https://store.steampowered.com/*",
+        "https://store.epicgames.com/*",
+        "https://play.google.com/store/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}

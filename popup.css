@@ -1,0 +1,80 @@
+/* popup.css */
+body {
+  font-family: Arial, sans-serif;
+  width: 350px; 
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.seccion {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-size: 16px;
+  margin-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+#dolar-info p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2a8a48;
+  margin: 5px 0;
+}
+
+#dolar-info span {
+  font-size: 12px;
+  color: #666;
+}
+
+/* --- Nuevos Estilos para Ofertas --- */
+
+.oferta-item {
+  display: flex; /* Usamos flexbox para alinear imagen y texto */
+  gap: 10px;    /* Espacio entre la imagen y el texto */
+  padding: 8px 0;
+  border-bottom: 1px dashed #eee;
+  text-decoration: none;
+  color: #1a6ab4;
+}
+
+.oferta-item:last-child {
+  border-bottom: none; /* Quitamos la línea del último elemento */
+}
+
+.oferta-item:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.oferta-item img {
+  width: 80px; /* Tamaño de la portada */
+  height: 45px;
+  object-fit: cover; /* Asegura que la imagen se vea bien */
+  border-radius: 4px;
+}
+
+.oferta-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.oferta-details strong {
+  color: #111;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.oferta-details span {
+  font-weight: bold;
+  color: #d9534f; /* Color rojo para el precio de oferta */
+  font-size: 12px;
+}
