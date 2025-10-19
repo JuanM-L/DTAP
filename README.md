@@ -3,4 +3,13 @@ DAP es algo que inicie a hacer hoy, Sabado 18 de octubre. Lo hice para ver cuant
 
 Para usar esto se tiene que poner en una extencion de google.
 
-TIENEN TOTAL ACCESO DE USARLO PERO NO A VENDERLO EN UNA TIENDA DIGITAL Y/O DECIR QUE ES SUYO
+TIENEN TOTAL ACCESO DE USARLO PERO NO A VENDERLO EN UNA TIENDA DIGITAL Y/O DECIR QUE ES SUYO.
+
+Versiones con soporte
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.0   | :yellow_circle: |
+| 1.0.1 | :yellow_circle: |
+| 1.0.2 | :red_circle:       |
+| 1.0.3 | :white_check_mark:     |
+
